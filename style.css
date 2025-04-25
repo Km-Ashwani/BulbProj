@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#bulb {
+    display: flex;
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: #414141; */
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: background-image 0.3s ease-in-out;
+    box-sizing: border-box;
+    background-image: url('./Bulb_Of03.png');
+}
+
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 30px;
+}
